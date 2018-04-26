@@ -28,3 +28,9 @@ alibuild_package(
   alibuild = "@alibuild",
   defaults = "bazel"
 )
+alibuild_package(
+  name = "UUID",
+  alidist = "@alidist",
+  alibuild = "@alibuild",
+  defaults = "bazel"
+)

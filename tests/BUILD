@@ -7,5 +7,6 @@ package(default_testonly = 1)
   data = ["@{0}//:lib".format(test), "@{0}//:include".format(test)],
   timeout = "short",
 ) for test in [
-    "zlib"
+    "zlib",
+    "UUID"
 ]]

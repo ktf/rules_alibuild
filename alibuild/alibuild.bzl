@@ -133,8 +133,6 @@ def _alibuild_package_impl(ctx):
   if res.return_code == 0:
     for i in res.stdout.splitlines():
       basename = i.rpartition("/")[-1]
-      print(i)
-      print(basename)
       ctx.symlink(i, ctx.path(basename))
   else:
     fail(res.stderr)
