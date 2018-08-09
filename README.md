@@ -1,6 +1,4 @@
-# rules_nixpkgs
-
-[![CircleCI](https://circleci.com/gh/tweag/rules_nixpkgs.svg?style=svg)](https://circleci.com/gh/tweag/rules_nixpkgs)
+# rules_alibuild
 
 Rules for importing aliBuild packages into Bazel.
 
