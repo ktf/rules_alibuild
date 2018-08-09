@@ -203,3 +203,7 @@ recommended. The two are mutually exclusive.
     </tr>
   </tbody>
 </table>
+
+# Thanks
+
+Adapted to alibuild starting from [rules_nixpkgs](https://github.com/tweag/rules_nixpkgs).
